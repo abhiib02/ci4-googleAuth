@@ -1,5 +1,5 @@
 # ci4-googleAuth\
-This is a simple Sample Code for Google Signin in Codeigniter 4\
+This is a simple Sample Code for Google Signin/Signup in Codeigniter 4\
 \
 Before implementing signin \
 \
