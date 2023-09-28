@@ -2,8 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models;
-use App\Models\Query;
+
 use App\Models\User;
 use Config\Services;
 
@@ -73,7 +72,6 @@ class LoginController extends BaseController
         $session->set($LoggedInData);
         return redirect()->route('dashboard');
     }
-
 
     public function googleloginValidation()
     {
