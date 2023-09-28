@@ -24,19 +24,33 @@
             </form>
             <hr>
 
-              /////////////////////////////   /////////////////////////////   /////////////////////////////   ///////////////////////////// 
+              ADD THIS /////////////////////////////   /////////////////////////////   /////////////////////////////   ///////////////////////////// 
+
+
+
+
+            
             <div id="g_id_onload" data-client_id="######################################.apps.googleusercontent.com" data-context="signin" data-ux_mode="popup" data-login_uri="YOUR_LOGIN_PAGE_FULL_ROUTE" data-auto_prompt="false">
             </div>
 
             <div class="g_id_signin" data-type="standard" data-shape="rectangular" data-theme="outline" data-text="signin_with" data-size="large" data-logo_alignment="left">
             </div>
+
+
+            
                  /////////////////////////////   /////////////////////////////   /////////////////////////////   /////////////////////////////
         </div>
 
     </div>
 </div>
-                 /////////////////////////////   /////////////////////////////   /////////////////////////////
+               ADD THIS   /////////////////////////////   /////////////////////////////   /////////////////////////////
+
+
+
 <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+
+
                  /////////////////////////////   /////////////////////////////   /////////////////////////////
 <script>
     function togglePass() {
