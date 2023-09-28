@@ -4,7 +4,7 @@ This is a simple Sample Code for Google Signin in Codeigniter 4\
 Before implementing signin \\
 \
 go to \\
-Credential ['https://console.cloud.google.com/apis/credentials']\\
+Credential [https://console.cloud.google.com/apis/credentials] \\
 Click "Create Credential";\\
 Click "OAuth client ID"\\
 Type "Web Application"\\
