@@ -1,22 +1,22 @@
 # ci4-googleAuth\
 This is a simple Sample Code for Google Signin in Codeigniter 4\
 \
-Before implementing signin \\
+Before implementing signin \
 \
-go to \\
-Credential [https://console.cloud.google.com/apis/credentials] \\
-Click "Create Credential";\\
-Click "OAuth client ID"\\
-Type "Web Application"\\
-Enter name \\
-Enter URL of your website\\
-Click Create\\
+go to \
+Credential [https://console.cloud.google.com/apis/credentials]
+Click "Create Credential";\
+Click "OAuth client ID"\
+Type "Web Application"\
+Enter name \
+Enter URL of your website\
+Click Create\
 Copy CLIENT ID = XXXXXXXXXXXXX-xxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com Which Looks Like This \
 \
 and paste that in \
 \
-app/views/Login.php\\
-\\
+app/views/Login.php\
+\
 ```html
 <div
    id="g_id_onload" 
