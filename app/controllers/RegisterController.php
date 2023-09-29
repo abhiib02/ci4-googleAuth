@@ -84,7 +84,12 @@ class RegisterController extends BaseController
 
 
         $data = json_decode($response);
+        $InvalidTokenerror = $data->error ?? 0;
         //print_r($data->email);
+        if ($InvalidTokenerror) {
+            echo '<script>alert("' . $data->error . '");window.location.href="/login";</script>';
+            die();
+        }
         $email = $data->email;
         $password = $data->kid;
         $name = $data->name;
