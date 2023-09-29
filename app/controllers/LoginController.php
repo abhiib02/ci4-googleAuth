@@ -94,8 +94,8 @@ class LoginController extends BaseController
 
         $data = json_decode($response);
         
-        $error = $data->error ?? 0;
-        if ($error) {
+        $InvalidTokenerror = $data->error ?? 0;
+        if ($InvalidTokenerror) {
             echo '<script>alert("' . $data->error . '");window.location.href="/login";</script>';
             die();
         }
