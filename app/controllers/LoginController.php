@@ -93,7 +93,12 @@ class LoginController extends BaseController
 
 
         $data = json_decode($response);
-        print_r($data->email);
+        
+        $error = $data->error ?? 0;
+        if ($error) {
+            echo '<script>alert("' . $data->error . '");window.location.href="/login";</script>';
+            die();
+        }
         $email = $data->email;
 
 
