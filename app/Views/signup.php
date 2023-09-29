@@ -48,7 +48,7 @@
                 <div id="match" class="hide mb-3 text-danger">
                     Password is not matching
                 </div>
-                <button type="submit" id="submit" class="btn btn-sm btn-success">Login</button>
+                <button type="submit" id="submit" class="btn btn-sm btn-success">Sign up</button>
             </form>
 
         </div>
